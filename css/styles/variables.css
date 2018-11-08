@@ -1,5 +1,10 @@
 :root {
-	--color-1: #4F82E3;
-	--color-2: #FE9471;
-	--color-paragraphe: #8190AE;
+    --primary-color: #4F82E3;
+    --secondary-color: #FE9471;
+    --gradient-blue: linear-gradient(155.48deg, rgba(48, 198, 245, 0.82) 4.93%, rgba(79, 130, 227, 0.49) 78.7%), #4F82E3;
+    --gradient-small-blue: linear-gradient(84.95deg, #30C6F5 -25.09%, rgba(79, 130, 227, 0.49) 125.89%), #4F82E3;
+    --gradient-orange: linear-gradient(320.8deg, rgba(244, 49, 143, 0.88) -56.03%, #FE9471 72.1%), #FE9471;
+    --text-color: #8190AE;
+    --title-color: #203256;
+    --invalid-color: #FF5A5A;
 }
