@@ -9,7 +9,7 @@
  <?php include_once("layout/search-bar.php"); ?>
   </section>
 
-<section class="main">
+<section class="main main--projet">
 <section class="last-projects">
 <div class="card-full">
   <div class="player-full">
