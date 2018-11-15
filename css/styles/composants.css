@@ -117,3 +117,16 @@
 .arrow#filter {
 	margin-left: 50px;
 }
+
+
+/* nouveau projet */
+
+.scenario {
+	display: flex;
+	align-items: flex-start;
+}
+
+.icon-projet {
+	padding-top: 16px;
+	padding-right: 12px;
+}

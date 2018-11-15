@@ -6,7 +6,7 @@
 		<a href="mes-projets.php" alt="page projet">
 			<img src="img/projet.svg">
 		</a>
-		<a href="#" alt="page nouveau projet" class="menu__btn">
+		<a href="nouveau-projet.php" alt="page nouveau projet" class="menu__btn">
 			<img src="img/btn-menu.svg">
 		</a>
 		<a href="#" alt="page tuto">
@@ -17,3 +17,6 @@
 		</a>
 	</div>
 </footer>
+
+</body>
+</html>

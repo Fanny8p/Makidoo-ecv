@@ -29,8 +29,8 @@ $description = "Ma description";
     <video controls src="img/mavideo.mp4" style="width: 100%;"></video>
   </div>
   <div class="etiquette">
-    <item><p id="bold">Le nom de ma video</p></item>
-    <item><p id=small>24/06/18<img class="puce" src="img/clock.svg"></p></item>
+    <p id="bold">Le nom de ma video</p>
+    <p id=small><span id="icone">24/06/18<img class="puce" src="img/clock.svg"></span></p>
   </div>
 </div>
 </section>
@@ -45,8 +45,8 @@ $description = "Ma description";
     <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%;"></video>
   </div>
   <div class="etiquette-half">
-    <item><p id="bold">Le nom de ma video</p></item>
-    <item><p id="smallhug">Catégorie/05'30</p></item>
+    <p id="bold">Le nom de ma video</p>
+    <p id="smallhug">Catégorie/05'30</p>
   </div>
 </div>
 
@@ -55,8 +55,8 @@ $description = "Ma description";
     <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%"></video>
   </div>
   <div class="etiquette-half">
-    <item><p id="bold" class="bold">Le nom de ma video</p></item>
-    <item><p id="smallhug" class="small">Catégorie/05'30</item>
+    <p id="bold" class="bold">Le nom de ma video</p>
+    <p id="smallhug" class="small">Catégorie/05'30
   </div>
 </div>
 </div>
