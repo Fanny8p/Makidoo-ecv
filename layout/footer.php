@@ -1,9 +1,9 @@
 <footer>
 	<div class="menu">
-		<a href="#" alt="page accueil">
+		<a href="index.php" alt="page accueil">
 			<img src="img/accueil.svg">
 		</a>
-		<a href="#" alt="page projet">
+		<a href="mes-projets.php" alt="page projet">
 			<img src="img/projet.svg">
 		</a>
 		<a href="#" alt="page nouveau projet" class="menu__btn">

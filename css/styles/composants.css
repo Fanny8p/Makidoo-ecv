@@ -27,6 +27,9 @@
     margin-left: -5px;
     margin-right: -5px; 
 }
+.card-full {
+	margin-bottom: 16px;
+}
 
 /* style status bar */
  .status {
@@ -87,4 +90,30 @@
 
 .card-half {
 	padding: 0px 5px;
+}
+
+
+/* test 
+ */
+
+.search {
+	flex-grow: 2;
+	display: flex;
+}
+
+.search input[type=text] {
+	font-size: 14px;
+	font-family: Roboto;
+	flex-grow: 1;
+	border: none;
+}
+
+.search button {
+	background-color: white;
+	border: none;
+	padding-right: 30px;
+}
+
+.arrow#filter {
+	margin-left: 50px;
 }
