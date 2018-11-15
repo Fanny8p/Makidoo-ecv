@@ -15,17 +15,72 @@ $description = "Ma description";
       <h2>Mes derniers projets</h2>
   </div>
 <div class="card-full">
-    <video controls src="img/mavideo.mp4" style="width: 100%; height: 180px;"></video>
-  <div class="etiquette">
-    <item><p>Le nom de ma video</p></item>
-    <item><p>24/06/18<img class="puce" src="img/clock.svg"></p></item>
+  <div class="player-full">
+    <video controls src="img/mavideo.mp4" style="width: 100%;"></video>
   </div>
+  <div class="etiquette">
+    <item><p id="bold">Le nom de ma video</p></item>
+    <item><p id=small>24/06/18<img class="puce" src="img/clock.svg"></p></item>
+  </div>
+</div>
+</section>
+
+<section class="community-video">
+  <div class="titre-section">
+      <h2>Les vidéos de la communauté</h2>
+  </div>
+<div class="card">
+<div class="card-half">
+  <div class="player-half">
+    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%;"></video>
+  </div>
+  <div class="etiquette-half">
+    <item><p id="bold">Le nom de ma video</p></item>
+    <item><p id="smallhug">Catégorie/05'30</p></item>
+  </div>
+</div>
+
+<div class="card-half">
+  <div class="player-half">
+    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%"></video>
+  </div>
+  <div class="etiquette-half">
+    <item><p id="bold" class="bold">Le nom de ma video</p></item>
+    <item><p id="smallhug" class="small">Catégorie/05'30</item>
+  </div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-half">
+  <div class="player-half">
+    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%;"></video>
+  </div>
+  <div class="etiquette-half">
+    <item><p id="bold">Le nom de ma video</p></item>
+    <item><p id="smallhug">Catégorie/05'30</p></item>
+  </div>
+</div>
+
+<div class="card-vide"></div>
+
+<div class="card-half">
+  <div class="player-half">
+    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%"></video>
+  </div>
+  <div class="etiquette-half">
+    <item><p id="bold" class="bold">Le nom de ma video</p></item>
+    <item><p id="smallhug" class="small">Catégorie/05'30</item>
+  </div>
+</div>
 </div>
 </section>
 
 
 </section>
 
+
+<?php include_once("layout/footer.php"); ?>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

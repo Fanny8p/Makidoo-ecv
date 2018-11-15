@@ -1,3 +1,33 @@
+/* menu */
+.menu {
+	background-image: url("../img/background-menu.svg");
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	bottom: 0;
+    right: 0;
+    left: 0;
+    height: 55.65px;
+    position: fixed;
+}
+
+.menu__btn {
+	transform: translateY(-3em);
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    margin-left: -5px;
+    margin-right: -5px; 
+}
+
 /* style status bar */
  .status {
 	padding-left: 14px;
@@ -23,9 +53,11 @@
 	text-align: left;
 }
 
-.video-full {
-	width: 100%;
+.player-full {
+	border-radius: 10px;
+	overflow: hidden;
 	height: 180px;
+	box-shadow: 0px 4px 6px rgba(26, 51, 100, 0.2);
 }
 
 .puce {
@@ -35,6 +67,24 @@
 
 .etiquette {
 	padding : 0px 10px 0px 10px;
+	height: 44px;
 	display: flex;
 	justify-content: space-between;
+}
+
+/* style vidéos de la communauté */
+.player-half {
+	border-radius: 10px;
+	overflow: hidden;
+	height: 110px;
+	box-shadow: 0px 4px 6px rgba(26, 51, 100, 0.2);
+}
+
+.etiquette-half {
+	padding : 0px 10px 0px 10px;
+	height: 44px;
+}
+
+.card-half {
+	padding: 0px 5px;
 }

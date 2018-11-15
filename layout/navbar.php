@@ -8,12 +8,10 @@ $heure = date("H:i"); ?>
 </div>
 </section>
 
-<section class="main">
 <section class="top-bar">
   <div class="container">
-    <item class="arrow"><a href="https://www.adobe.com"><img src="img/arrow.svg"></a></item>
-    <item class="menu-title"><h1>Accueil</h1></item>
-    <item class="arrow"></item>
+    <div class="arrow"><a href="https://www.adobe.com"><img src="img/arrow.svg"></a></div>
+    <div class="menu-title"><h1>Accueil</h1></div>
+    <div class="arrow"></div>
   </div>
 </section>
-
