@@ -25,9 +25,9 @@ $description = "Ma description";
       <h2>Mes derniers projets</h2>
   </div>
 <div class="card-full">
-  <div class="player-full">
-    <video controls src="img/mavideo.mp4" style="width: 100%;"></video>
-  </div>
+  <video controls class="player-full" id="videoexpl" style="width: 100%; height: 100%;" >
+    <source src="video/mavideo.mp4"/>
+  </video>
   <div class="etiquette">
     <p id="bold">Le nom de ma video</p>
     <p id=small><span id="icone">24/06/18<img class="puce" src="img/clock.svg"></span></p>
@@ -41,9 +41,9 @@ $description = "Ma description";
   </div>
 <div class="card">
 <div class="card-half">
-  <div class="player-half">
-    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%;"></video>
-  </div>
+  <video controls class="player-half" id="videoexpl" style="width: 100%;" >
+    <source src="video/mavideo.mp4"/>
+  </video>
   <div class="etiquette-half">
     <p id="bold">Le nom de ma video</p>
     <p id="smallhug">Catégorie/05'30</p>
@@ -51,9 +51,9 @@ $description = "Ma description";
 </div>
 
 <div class="card-half">
-  <div class="player-half">
-    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%"></video>
-  </div>
+  <video controls class="player-half" id="videoexpl" style="width: 100%;" >
+    <source src="video/mavideo.mp4"/>
+  </video>
   <div class="etiquette-half">
     <p id="bold" class="bold">Le nom de ma video</p>
     <p id="smallhug" class="small">Catégorie/05'30
@@ -63,9 +63,9 @@ $description = "Ma description";
 
 <div class="card">
 <div class="card-half">
-  <div class="player-half">
-    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%;"></video>
-  </div>
+  <video controls class="player-half" id="videoexpl" style="width: 100%;" >
+    <source src="video/mavideo.mp4"/>
+  </video>
   <div class="etiquette-half">
     <item><p id="bold">Le nom de ma video</p></item>
     <item><p id="smallhug">Catégorie/05'30</p></item>
@@ -75,9 +75,9 @@ $description = "Ma description";
 <div class="card-vide"></div>
 
 <div class="card-half">
-  <div class="player-half">
-    <video controls src="img/mavideo.mp4" style="width: 100%; height: 100%"></video>
-  </div>
+  <video controls class="player-half" id="videoexpl" style="width: 100%;" >
+    <source src="video/mavideo.mp4"/>
+  </video>
   <div class="etiquette-half">
     <item><p id="bold" class="bold">Le nom de ma video</p></item>
     <item><p id="smallhug" class="small">Catégorie/05'30</p></item>
