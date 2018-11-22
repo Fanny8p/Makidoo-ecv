@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 video {
     object-fit: fill;
 }
@@ -16,6 +21,7 @@ a {
     font-family: Roboto;
     color: #6c757d;
     background-color: transparent;
+    display:inline-block;
 }
 
 html {
@@ -24,7 +30,6 @@ html {
 }
 
 img {
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -138,3 +143,122 @@ span#icone {
     display: flex;
     align-items: center;
 }
+
+
+
+/*----------------------------------------------
+------Menu slide*/
+.fix{
+    position: fixed;
+    overflow-x: scroll;
+}
+
+.swipe{
+    display: flex;
+}
+
+.slide-menu {
+    align-items: center;
+    background: #fff;
+    top: 102px;
+    border: 1px solid #4F82E3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 7px rgba(79, 130, 227, 0.1);
+    width: 90px;
+    height: 55px;
+  
+    text-decoration: none;
+}
+
+.menu__btn {
+    transform: translateY(-1.5em);
+}
+
+
+
+
+
+/*----------------------------------------------
+------Flickity*/
+.flickity-enabled {
+  position: relative;
+  margin-bottom:10px;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  margin-bottom:10px;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-bottom:10px;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+          tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/*-----*/
+
+
+.gallery-cell {
+  width: 28%;
+  height: 60px;
+  margin-right: 15px;
+  background: #fff;
+  border: 1px solid #4F82E3;
+  border-radius: 8px;
+  counter-increment: gallery-cell;
+  box-shadow: 0px 4px 7px rgba(79, 130, 227, 0.1);
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.slide-menu__span {
+    font-size:11px;
+    color: var(--primary-color);
+    line-height:0px;
+    text-align:center;
+    font-family:Open Sans;
+}
+
+.icon-menu {
+    margin: 10px 0px 10px 0px;
+}
+
+.libre-picto {
+    margin:16px;
+}
+
+/*---------------------*/
+button.flickity-button.flickity-prev-next-button.previous { display: none; }
+
+button.flickity-button.flickity-prev-next-button.next { display: none; }
+
+ol.flickity-page-dots { display: none; }
+

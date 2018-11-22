@@ -17,6 +17,6 @@
 		</a>
 	</div>
 </footer>
-
+<script type="text/javascript" src="js/flickity.js"></script>
 </body>
 </html>

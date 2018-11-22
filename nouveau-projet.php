@@ -8,8 +8,8 @@
 </section>
   </section>
 
-
 <section class="main">
+	<?php include_once("layout/top-bar-p.php") ?>
 <section class="scenario">
 	<img class="icon-projet" src="img/edit.svg">
 	<div class="content">
