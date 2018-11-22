@@ -24,3 +24,8 @@ include_once("layout/header.php");
 
 
 <?php include_once("layout/footer.php"); ?>
+
+	<script>
+		var flkty = new Flickity('.gallery');
+		flkty.select( 4 );
+	</script>
