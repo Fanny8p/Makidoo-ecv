@@ -1,32 +1,32 @@
 <div class="gallery js-flickity">
-  <div class="gallery-cell">
-    <a href="#">
-      <img src="img/decouverte.svg" class="icon-menu">
-      <span class="slide-menu__span">Découverte</span>
+  <div class="gallery-cell <?php if($page == 'decouverte') echo 'is-active'; ?>">
+    <a href="new-decouverte.php">
+      <img src="img/decouverte<?php if($page == 'decouverte') echo '-blanc'; ?>.svg" class="icon-menu">
+      <span class="slide-menu__span <?php if($page == 'decouverte') echo 'is-active'; ?>">Découverte</span>
     </a>
   </div>
-  <div class="gallery-cell">
-    <a href="#">
-      <img src="img/communication.svg" class="icon-menu">
-      <span class="slide-menu__span">Communication</span>
+  <div class="gallery-cell <?php if($page == 'communication') echo 'is-active'; ?>">
+    <a href="new-communication.php">
+      <img src="img/communication<?php if($page == 'communication') echo '-blanc'; ?>.svg" class="icon-menu">
+      <span class="slide-menu__span <?php if($page == 'communication') echo 'is-active'; ?>">Communication</span>
     </a>
   </div>
-  <div class="gallery-cell">
-    <a href="#">
-      <img src="img/immobilier.svg" class="icon-menu">
-      <span class="slide-menu__span">Immobilier</span>
+  <div class="gallery-cell <?php if($page == 'immobilier') echo 'is-active'; ?>">
+    <a href="new-immobilier.php">
+      <img src="img/immobilier<?php if($page == 'immobilier') echo '-blanc'; ?>.svg" class="icon-menu">
+      <span class="slide-menu__span <?php if($page == 'immobilier') echo 'is-active'; ?>">Immobilier</span>
     </a>
   </div>
-  <div class="gallery-cell">
-    <a href="#">
-      <img src="img/communaute.svg" class="icon-menu">
-      <span class="slide-menu__span">Communauté</span>
+  <div class="gallery-cell <?php if($page == 'communaute') echo 'is-active'; ?>">
+    <a href="new-communaute.php">
+      <img src="img/communaute<?php if($page == 'communaute') echo '-blanc'; ?>.svg" class="icon-menu">
+      <span class="slide-menu__span <?php if($page == 'communaute') echo 'is-active'; ?>">Communauté</span>
     </a>
   </div>
-  <div class="gallery-cell">
-    <a href="#">
-      <img src="img/libre.svg" class="icon-menu">
-      <span class="slide-menu__span libre-picto">Libre</span>
+  <div class="gallery-cell <?php if($page == 'libre') echo 'is-active'; ?>">
+    <a href="new-libre.php">
+      <img src="img/libre<?php if($page == 'libre') echo '-blanc'; ?>.svg" class="icon-menu">
+      <span class="slide-menu__span libre-picto <?php if($page == 'libre') echo 'is-active'; ?>">Libre</span>
     </a>
   </div>
   </div>

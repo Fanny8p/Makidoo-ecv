@@ -1,4 +1,7 @@
-<?php include_once("layout/header.php"); ?>
+<?php 
+$page ='libre';
+include_once("layout/header.php"); 
+?>
 <section class="top-bar">
   <div class="container">
     <div class="arrow"><a href="mes-projets.php"><img src="img/arrow.svg"></a></div>

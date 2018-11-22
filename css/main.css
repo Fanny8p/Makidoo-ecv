@@ -239,12 +239,22 @@ span#icone {
   text-align:center;
 }
 
+.gallery-cell.is-active {
+    background: var(--gradient-orange);
+    border: 0px;
+    box-shadow: 0px 4px 7px rgba(254, 148, 113, 0.1);
+}
+
 .slide-menu__span {
     font-size:11px;
     color: var(--primary-color);
     line-height:0px;
     text-align:center;
     font-family:Open Sans;
+}
+
+.slide-menu__span.is-active {
+    color: #FFFFFF;
 }
 
 .icon-menu {
