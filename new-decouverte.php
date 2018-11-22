@@ -25,7 +25,7 @@ include_once("layout/header.php");
 <section class="scenario">
 	<img class="icon-projet" src="img/edit.svg">
 	<div class="content">
-		<p id="bold-color">Interview</p>
+		<p id="bold-color">Voiture à vendre</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
 		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
@@ -33,7 +33,7 @@ include_once("layout/header.php");
 <hr><section class="scenario">
 	<img class="icon-projet" src="img/edit.svg">
 	<div class="content">
-		<p id="bold-color">Interview</p>
+		<p id="bold-color">Curriculum Vitae</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
 		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
@@ -41,7 +41,7 @@ include_once("layout/header.php");
 <hr><section class="scenario">
 	<img class="icon-projet" src="img/edit.svg">
 	<div class="content">
-		<p id="bold-color">Interview</p>
+		<p id="bold-color">Voeux d'anniversaire</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
 		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
