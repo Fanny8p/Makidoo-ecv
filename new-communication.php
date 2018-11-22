@@ -18,7 +18,7 @@ include_once("layout/header.php");
 	<div class="content">
 		<p id="bold-color">Interview</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
-		<span id="icone"><p style="padding-right: 10px;"><strong>Durée:</strong> 01'45</p><p><strong>Plans:</strong> 4</p></span>
+		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
 </section>
 <hr>
@@ -27,7 +27,7 @@ include_once("layout/header.php");
 	<div class="content">
 		<p id="bold-color">Interview</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
-		<span id="icone"><p style="padding-right: 10px;"><strong>Durée:</strong> 01'45</p><p><strong>Plans:</strong> 4</p></span>
+		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
 </section>
 <hr><section class="scenario">
@@ -35,7 +35,7 @@ include_once("layout/header.php");
 	<div class="content">
 		<p id="bold-color">Interview</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
-		<span id="icone"><p style="padding-right: 10px;"><strong>Durée:</strong> 01'45</p><p><strong>Plans:</strong> 4</p></span>
+		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
 </section>
 <hr><section class="scenario">
@@ -43,7 +43,7 @@ include_once("layout/header.php");
 	<div class="content">
 		<p id="bold-color">Interview</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
-		<span id="icone"><p style="padding-right: 10px;"><strong>Durée:</strong> 01'45</p><p><strong>Plans:</strong> 4</p></span>
+		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 	</div>
 </section>
 
