@@ -1,7 +1,11 @@
+
+<link rel="stylesheet" type="text/css" href="main.css" />
+ 
 <?php 
 $page ='libre';
 include_once("layout/header.php"); 
 ?>
+
 <section class="top-bar">
   <div class="container">
     <div class="arrow"><a href="mes-projets.php"><img src="img/arrow.svg"></a></div>
@@ -18,12 +22,24 @@ include_once("layout/header.php");
 	<div class="content">
 		<p id="bold-color">Format libre</p>
 		<p>Le scénario libre vous permet de créer votre propre histoire avec un nombre de plans illimité. Choisissez le temps, rythmez votre vidéo avec de la musique, et devenez maître de votre vidéo.</p>
-		<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
+		<p class="formulaire">Nom du projet</p>
+		<p>Format</p>
+		<div style="display: flex;">
+			<p class="formulaire-round">minutes</p>
+			<p class="formulaire-round1">secondes</p>
+		</div>
+		<p>Durée</p>
+		<div style="display: flex;">
+			<p class="formulaire-round">vertical</p>
+			<p class="formulaire-round1">horizontal</p>
+		</div>
+		<p class="btn">commencer</p>
 	</div>
 </section>
 
 
 <?php include_once("layout/footer.php"); ?>
+
 
 	<script>
 		var flkty = new Flickity('.gallery');

@@ -272,3 +272,47 @@ button.flickity-button.flickity-prev-next-button.next { display: none; }
 
 ol.flickity-page-dots { display: none; }
 
+
+
+
+
+/*----------------------------------------------
+------Formulaires*/
+
+p.formulaire-round {
+    border: 2px solid #BBBDBF;
+    border-radius: 8px 0px 0px 8px;
+    text-align: center;
+    padding: 5px 40px 5px 40px;
+    color: #BBBDBF;
+}
+
+
+p.formulaire-round1 {
+    border: 2px solid #BBBDBF;
+    border-radius: 0px 8px 8px 0px;
+    text-align: center;
+    padding: 5px 40px 5px 40px;
+    margin-left: -2px;
+    color: #BBBDBF;
+}
+
+
+.formulaire {
+  font-family: Open Sans;
+    color: #BBBDBF;
+    border-bottom: 2px solid #BBBDBF;
+    padding: 0px 5px 5px 0px;
+    }
+
+
+
+/*----------------------------------------------
+------Bouton*/
+.btn {
+    border: 2px solid #BBBDBF;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    color: #BBBDBF;
+}
