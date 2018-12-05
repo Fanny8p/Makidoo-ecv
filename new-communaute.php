@@ -18,7 +18,7 @@ include_once("layout/header.php");
 		<img class="icon-projet pen" src="img/edit.svg" />
 		<div class="wrapper-text">
 			<p id="bold-color">Crow funding</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
+			<p>CrowFunding est un modèle permettant de présenter sa start-up, un projet d’entreprise afin de solliciter des fonds, via une plateforme de crowfunding par exemple.</p>
 			<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 		</div>
 	</div>
@@ -29,7 +29,7 @@ include_once("layout/header.php");
 		<img class="icon-projet pen" src="img/edit.svg" />
 		<div class="wrapper-text">
 			<p id="bold-color">Crow funding illustré</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
+			<p>CrowFunding est un modèle permettant de présenter sa start-up, un projet d’entreprise afin de solliciter des fonds, via une plateforme de crowfunding par exemple.</p>
 			<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 		</div>
 	</div>
@@ -39,7 +39,7 @@ include_once("layout/header.php");
 		<img class="icon-projet pen" src="img/edit.svg" />
 		<div class="wrapper-text">
 			<p id="bold-color">Clip Twitter</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
+			<p>Clip Twitter est un scénario pour faire une vidéo musicale très découpée, c’est à dire très dynamique avec des successions de plans très courts alternés, sans interviews. Un outil de communication redoutable pour illustrer un événement par exemple !</p>
 			<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 		</div>
 	</div>
@@ -48,8 +48,8 @@ include_once("layout/header.php");
 	<div class="content position-relative">
 		<img class="icon-projet pen" src="img/edit.svg" />
 		<div class="wrapper-text">
-			<p id="bold-color">Interview</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aperiam quas tempora, hic aliquam iste voluptas doloribus laboriosam architecto fugiat in reprehenderit repudiandae molestiae nesciunt quos a voluptatem voluptate, nisi.</p>
+			<p id="bold-color">Jeux concours (Interview)</p>
+			<p>Jeux Concours vous mermet d’annoncer un concours sur les réseaux sociaux ! Donnez une touche plus professionnelle à vos jeux avec ce scénario !</p>
 			<span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
 		</div>
 	</div>
