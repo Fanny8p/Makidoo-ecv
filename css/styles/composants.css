@@ -126,7 +126,15 @@
 	align-items: flex-start;
 }
 
+.scenario .wrapper-text {
+    margin-left: auto;
+    width: calc(100% - 34px);
+}
+
 .icon-projet {
-	padding-top: 16px;
-	padding-right: 12px;
+	height: 24px;
+    left: 0;
+    position: absolute;
+    width: 24px;
+    top: 20px;
 }

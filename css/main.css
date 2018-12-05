@@ -147,6 +147,26 @@ span#icone {
 
 
 /*----------------------------------------------
+------Atpmic CSS*/
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/*----------------------------------------------
 ------Menu slide*/
 .fix{
     position: fixed;
