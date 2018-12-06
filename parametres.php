@@ -13,20 +13,42 @@ include_once("layout/header.php");
 
 <section class="main">
   <?php include_once("layout/top-bar-parametres.php") ?>
-  <section class="scenario">
-      <div class="content position-relative">
-    <img class="icon-projet pen" src="img/edit.svg" />
-    <div class="wrapper-text">
-      <p id="bold-color">Crow funding</p>
-      <p>CrowFunding est un modèle permettant de présenter sa start-up, un projet d’entreprise afin de solliciter des fonds, via une plateforme de crowfunding par exemple.</p>
-      <span id="icone"><p style="padding-right: 10px;"><strong>Durée :</strong> 01'45</p><p><strong>Plans :</strong> 4</p></span>
+  <section class="parametres">
+    <div class="content position-relative" id="full-width">
+      <form>
+        <p>
+          <input type="text" class="formulaire" name="Nom" value="Lebras" placeholder="Nom" />
+          <img class="icon-parametres pen" src="img/edit.svg" />
+        </p>
+      </form>
+
+      <form>
+        <p>
+          <input type="text" class="formulaire" name="Prénom" value="Célia" placeholder="Prénom" />
+          <img class="icon-parametres pen" src="img/edit.svg" />
+        </p>
+      </form>
+
+      <form>
+        <p>
+          <input type="email" class="formulaire" pattern=".+@globex.com" size="30" value="lebras@gmail.com" required>
+          <img class="icon-parametres pen" src="img/edit.svg" />
+        </p>
+      </form>
+
+      <form>
+        <p>
+          <input type="password" id="pass" name="password" minlength="8" value="********" required>
+          <img class="icon-parametres pen" src="img/edit.svg" />
+        </p>
+      </form> 
     </div>
-  </div>
+  </section>
 </section>
 
-      <script type="text/javascript" src="js/flickity.js"></script>
+<script type="text/javascript" src="js/flickity.js"></script>
 
-  <script>
-    var flkty = new Flickity('.gallery');
-    flkty.select( 3 );
-  </script>
+<script>
+  var flkty = new Flickity('.gallery');
+  flkty.select( 3 );
+</script>

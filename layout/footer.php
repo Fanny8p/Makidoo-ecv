@@ -9,10 +9,10 @@
 		<a href="new-decouverte.php" alt="page nouveau projet" class="menu__btn">
 			<img src="img/btn-menu.svg">
 		</a>
-		<a href="tuto" alt="page tuto">
+		<a href="tuto.php" alt="page tuto">
 			<img src="img/tuto.svg">
 		</a>
-		<a href="#" alt="page parametres">
+		<a href="parametres.php" alt="page parametres">
 			<img src="img/parametres.svg">
 		</a>
 	</div>
