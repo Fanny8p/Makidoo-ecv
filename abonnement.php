@@ -13,7 +13,7 @@ include_once("layout/header.php");
 
 <section class="main">
   <?php include_once("layout/top-bar-parametres.php") ?>
-  <section class="parametres">
+  <section class="mentions">
     <div class="content position-relative" id="align-center">
       <h1>Abonnement gratuit</h1>
       <p>option actuelle</p>
@@ -24,13 +24,13 @@ include_once("layout/header.php");
       <br>
       <h1>Abonnement payant</h1>
       <p>30€/mois</p>
-        <ul>
-          <li>Accès de nouveaux thèmes</li>
-          <li>Accès à une banque de son</li>
-          <li>Accès à une banque d’image</li>
-          <li>Et pleins d’autres avantages !</li>
-        </ul>
-<button class="btn-formulaire"></button>
+      <ul>
+        <li>Accès de nouveaux thèmes</li>
+        <li>Accès à une banque de son</li>
+        <li>Accès à une banque d’image</li>
+        <li>Et pleins d’autres avantages !</li>
+      </ul>
+      <button class="btn-formulaire">S'ouscrire</button>
     </div>
   </section>
 </section>
@@ -39,7 +39,7 @@ include_once("layout/header.php");
 
 <script>
   var flkty = new Flickity('.gallery');
-  flkty.select( 2 );
+  flkty.select( 1 );
 </script>
 
 <?php include_once("layout/footer.php") ?>

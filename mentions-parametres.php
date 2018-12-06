@@ -1,5 +1,5 @@
 <?php 
-$page ='profil';
+$page ='mentions-parametres';
 include_once("layout/header.php"); 
 ?>
 <section class="top-bar">
@@ -38,7 +38,7 @@ include_once("layout/header.php");
 
 <script>
   var flkty = new Flickity('.gallery');
-  flkty.select( 3 );
+  flkty.select( 2 );
 </script>
 
 

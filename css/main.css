@@ -390,12 +390,15 @@ p.formulaire-round1:hover {
 
 
 .btn-formulaire {
-    border: 2px solid #BBBDBF;
+    border: 2px solid #4F82E3;
     border-radius: 8px;
     text-align: center;
-    padding: 10px;
-    color: #BBBDBF;
+    padding: 10px 30px 10px 30px;
+    color: #4F82E3;
     margin-right: 140px;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    margin: auto;
 }
 
 .btn-formulaire:hover {
