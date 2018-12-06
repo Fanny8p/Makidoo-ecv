@@ -310,6 +310,11 @@ span#icone {
     margin:16px;
 }
 
+.marge-picto {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /*---------------------*/
 button.flickity-button.flickity-prev-next-button.previous { display: none; }
 

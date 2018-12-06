@@ -2,19 +2,19 @@
   <div class="gallery-cell <?php if($page == 'decouverte') echo 'is-active'; ?>">
     <a href="#">
       <img src="img/decouverte<?php if($page == 'decouverte') echo '-blanc'; ?>.svg" class="icon-menu">
-      <span class="slide-menu__span <?php if($page == 'decouverte') echo 'is-active'; ?>">Tutos</span>
+      <span class="slide-menu__span marge-picto <?php if($page == 'decouverte') echo 'is-active'; ?>">Tutos</span>
     </a>
   </div>
   <div class="gallery-cell <?php if($page == 'communication') echo 'is-active'; ?>">
     <a href="#">
       <img src="img/communication<?php if($page == 'communication') echo '-blanc'; ?>.svg" class="icon-menu">
-      <span class="slide-menu-tuto__span <?php if($page == 'communication') echo 'is-active'; ?>">Découvrez</span>
+      <span class="slide-menu__span marge-picto <?php if($page == 'communication') echo 'is-active'; ?>">Découvrez</span>
     </a>
   </div>
   <div class="gallery-cell <?php if($page == 'immobilier') echo 'is-active'; ?>">
     <a href="#">
       <img src="img/immobilier<?php if($page == 'immobilier') echo '-blanc'; ?>.svg" class="icon-menu">
-      <span class="slide-menu__span <?php if($page == 'immobilier') echo 'is-active'; ?>">Astuces</span>
+      <span class="slide-menu__span marge-picto <?php if($page == 'immobilier') echo 'is-active'; ?>">Astuces</span>
     </a>
   </div>
   
