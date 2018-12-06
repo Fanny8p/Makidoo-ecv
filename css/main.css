@@ -75,6 +75,16 @@ p {
     font-size  : 14px;
 }
 
+ul {
+    color      : var(--text-color);
+    font-family: Open Sans;
+    font-style : normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size  : 14px;
+    padding: 0;
+}
+
 p#small {
     color      : var(--text-color);
     font-family: Open Sans;
@@ -181,11 +191,17 @@ span#icone {
 
 .position-relative {
   position: relative;
+  margin: auto;
 }
 
 .position-relative#full-width {
   position: relative;
   width: 100%;
+}
+
+.position-relative#align-center {
+  position: relative;
+  text-align: center;
 }
 
 /*----------------------------------------------

@@ -6,12 +6,14 @@
     </a>
   </div>
   <div class="gallery-cell <?php if($page == 'abonnement') echo 'is-active'; ?>">
-    <a href="#">
+    <a href="abonnement.php">
       <img src="img/target<?php if($page == 'abonnement') echo '-blanc'; ?>.svg" class="icon-menu">
       <span class="slide-menu__span <?php if($page == 'abonnement') echo 'is-active'; ?>">Abonnement</span>
     </a>
   </div>
   <div class="gallery-cell <?php if($page == 'mentions-legales') echo 'is-active'; ?>">
+=======
+    <a href="abonnement.php">
     <a href="mentions-parametres.php">
       <img src="img/courthouse<?php if($page == 'mentions-legales') echo '-blanc'; ?>.svg" class="icon-menu">
       <span class="slide-menu__span marge-picto <?php if($page == 'mentions-legales') echo 'is-active'; ?>">Mentions</span>

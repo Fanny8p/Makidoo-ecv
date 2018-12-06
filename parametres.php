@@ -50,5 +50,7 @@ include_once("layout/header.php");
 
 <script>
   var flkty = new Flickity('.gallery');
-  flkty.select( 3 );
+  flkty.select( 0 );
 </script>
+
+<?php include_once("layout/footer.php") ?>
